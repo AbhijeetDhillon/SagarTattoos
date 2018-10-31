@@ -1,0 +1,66 @@
+﻿@model SagarTattoos.Models.Portfolio
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/Layout_Master.cshtml";
+}
+@*<form  method="post" enctype="multipart/form-data">
+<input  type="file" id="Image" name="Image" >
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+    </form>*@
+ <div style="padding-top:15px">
+<a  href="/Image/Index"><img src="~/images/Left.png"  class="img-responsive"/></a>
+     
+     </div>
+<h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">Upload Image</h3>
+@using (Html.BeginForm ("Create",  
+                        "Image",  
+                        FormMethod.Post,  
+                        new { enctype = "multipart/form-data" }))  
+{      
+    <div class="container">              
+    
+    <input type="file" name="file" class="single" style="color:white ; padding-bottom:6px"/>  
+    
+    
+    <input type="submit" value="Upload " class="btn btn-default"/>  
+       
+    <br><br>  
+   <h2 style="color:white"> @ViewBag.Message</h2>  
+    
+        </div>
+}
+<div class =" container">
+    
+   
+                               @foreach (var imgPath in Directory.GetFiles(Server.MapPath("~/Portfolio"), "*.jpg"))
+
+                                   {
+                                              var img = new FileInfo(imgPath);
+                                               
+                                     
+                               
+                                <div class="col-md-4 portfolio-grids grid grid-mdl">
+									<div class="effect1 wow fadeInUp animated" data-wow-delay=".5s">
+                                      
+										<a href="@Url.Content(String.Format("~/Portfolio/{0}", img.Name))" class="swipebox" >
+											<img src="@Url.Content(String.Format("~/Portfolio/{0}", img.Name))" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<p>Sagar Tattoos </p>
+											</div>
+										</a>	
+									</div>
+								
+                                      
+								
+								<div class="clearfix"> </div>
+							</div>
+                               }
+</div>

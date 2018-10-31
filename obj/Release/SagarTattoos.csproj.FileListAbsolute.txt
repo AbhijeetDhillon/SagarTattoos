@@ -1,0 +1,56 @@
+D:\MVC\SagarTattoos\SagarTattoos\bin\SagarTattoos.dll
+D:\MVC\SagarTattoos\SagarTattoos\bin\SagarTattoos.pdb
+D:\MVC\SagarTattoos\SagarTattoos\bin\EntityFramework.dll
+D:\MVC\SagarTattoos\SagarTattoos\bin\Microsoft.Web.Infrastructure.dll
+D:\MVC\SagarTattoos\SagarTattoos\bin\Newtonsoft.Json.dll
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Net.Http.Formatting.dll
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Helpers.dll
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Http.dll
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Http.WebHost.dll
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Mvc.dll
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Razor.dll
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.WebPages.Deployment.dll
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.WebPages.dll
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.WebPages.Razor.dll
+D:\MVC\SagarTattoos\SagarTattoos\bin\EntityFramework.xml
+D:\MVC\SagarTattoos\SagarTattoos\bin\Newtonsoft.Json.xml
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Net.Http.Formatting.xml
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Helpers.xml
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Http.xml
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Http.WebHost.xml
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Mvc.xml
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Razor.xml
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.WebPages.xml
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.WebPages.Deployment.xml
+D:\MVC\SagarTattoos\SagarTattoos\bin\System.Web.WebPages.Razor.xml
+D:\MVC\SagarTattoos\SagarTattoos\obj\Release\SagarTattoos.csprojResolveAssemblyReference.cache
+D:\MVC\SagarTattoos\SagarTattoos\obj\Release\SagarTattoos.dll
+D:\MVC\SagarTattoos\SagarTattoos\obj\Release\SagarTattoos.pdb
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\SagarTattoos.dll
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\SagarTattoos.pdb
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\EntityFramework.dll
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\Microsoft.Web.Infrastructure.dll
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\Newtonsoft.Json.dll
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Net.Http.Formatting.dll
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Helpers.dll
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Http.dll
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Http.WebHost.dll
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Mvc.dll
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Razor.dll
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.WebPages.Deployment.dll
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.WebPages.dll
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.WebPages.Razor.dll
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\EntityFramework.xml
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\Newtonsoft.Json.xml
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Net.Http.Formatting.xml
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Helpers.xml
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Http.xml
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Http.WebHost.xml
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Mvc.xml
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.Razor.xml
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.WebPages.xml
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.WebPages.Deployment.xml
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\bin\System.Web.WebPages.Razor.xml
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\obj\Release\SagarTattoos.csprojResolveAssemblyReference.cache
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\obj\Release\SagarTattoos.dll
+F:\D Drive\MVC\SagarTattoos\SagarTattoos\obj\Release\SagarTattoos.pdb

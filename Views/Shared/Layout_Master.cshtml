@@ -1,0 +1,93 @@
+﻿@{
+    ViewBag.Title = "Layout_Master";
+}
+
+
+<!DOCTYPE html>
+
+<head>
+<title>Sagar Tattoos</title>
+<link rel="shortcut icon" href="~/images/Logo.ico" />
+<!--mobile apps-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Tattoo, Tattoos , Sagar , Sagar Tattoos , Ink , Inked , Artist , Drawing" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--mobile apps-->
+<!--Custom Theme files-->
+<link href="~/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="~/css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="~/css/swipebox.css">
+<!--//Custom Theme files-->
+<!--js-->
+<script src="~/js/jquery-1.11.1.min.js"></script> 
+<!--//js-->
+<!--web-fonts-->
+<link href='//fonts.googleapis.com/css?family=Pirata+One' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+<!--//web-fonts-->
+<!--animate-->
+<link href="~/css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="~/js/wow.min.js"></script>
+	<script>
+	    new WOW().init();
+	</script>
+<!--//end-animate-->
+<!--start-smooth-scrolling-->
+<script type="text/javascript" src="~/js/move-top.js"></script>
+<script type="text/javascript" src="~/js/easing.js"></script>	
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+        });
+    });
+</script>
+<!--//end-smooth-scrolling-->
+</head>
+  
+
+
+@RenderBody();
+
+<!--footer-->
+
+	<div class="footer">
+<div class="container"  style="background-color:black">        
+		<div class="col-md-4">
+            	
+		<a href="https://facebook.com/www.sagartattoos/?ref=bookmarks"><img src="~/images/fb.png" /></a>
+        <a href="https://www.instagram.com/sagar_tattoos/"><img src="~/images/insta.png" /></a>
+        <a href="#"><img src="~/images/you.png" /></a>
+        <a href="#"><img src="~/images/tweet.png" /></a>
+				</div>
+            <div class="col-md-8" style="padding-top:10px">
+			<p class="wow fadeInUp animated" data-wow-delay=".7s">© Sagar Tattoos | Designed And Developed by <a href="https://about.me/abhijeetsinghdhillon">Abhijeet Singh Dhillon</a></p>
+		</div>
+        
+      </div>
+	</div>
+  
+	<!--//footer-->	
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="~/js/bootstrap.js"></script>

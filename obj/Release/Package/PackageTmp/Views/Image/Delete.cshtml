@@ -1,0 +1,55 @@
+﻿@model SagarTattoos.Models.Portfolio
+
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/Layout_Master.cshtml";
+}
+
+
+<div style="padding-top:15px">
+  <a  href="/Image/Index"><img src="~/images/Left.png"  class="img-responsive"/></a>
+     <h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">Delete Image</h3>
+       </div>
+    <div class="container">  
+       @foreach (var imgPath in Directory.GetFiles(Server.MapPath("~/Portfolio"), "*.jpg"))
+
+       {
+                                              var img = new FileInfo(imgPath);
+                               
+                                               Model.ImageName= img.Name;
+                                         
+                                            
+                                                                           
+                                <div class="col-md-4 portfolio-grids grid grid-mdl">
+									<div class="effect1 wow fadeInUp animated" data-wow-delay=".5s">
+                                      
+										<a href="@Url.Content(String.Format("~/Portfolio/{0}", img.Name))" class="swipebox"  >
+                                            
+											<img src="@Url.Content(String.Format("~/Portfolio/{0}", img.Name))" alt="" class="img-responsive" />
+                                            </a>	
+                                             <form name="deletePhoto" action="/Image/DeleteFile" method="post"  >
+                                                 <input name="photoFileName" value="@Html.DisplayFor(modelItem => Model.ImageName)" />
+											<div class="figcaption">
+												<p><input type="submit" value="Delete" class="btn btn-default"/> </p>
+                                           </div>     
+
+                                             </form>
+
+											</div>
+										
+                                     
+									
+								
+                                      
+								
+								<div class="clearfix"> </div>
+                                    </div>
+							
+       
+        
+            }
+         
+</div>
+     
+

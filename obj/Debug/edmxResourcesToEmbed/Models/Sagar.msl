@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SagarTattoosModelStoreContainer" CdmEntityContainer="SagarTattoosEntities">
+    <EntitySetMapping Name="tbl_Portfolio">
+      <EntityTypeMapping TypeName="SagarTattoosModel.tbl_Portfolio">
+        <MappingFragment StoreEntitySet="tbl_Portfolio">
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="ImageId" ColumnName="ImageId" />
+          <ScalarProperty Name="ImageName" ColumnName="ImageName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,138 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout_Master.cshtml";
+}
+
+
+
+<!--banner-->
+	<div class="banner">
+		<!--navigation-->
+		<div class="top-nav">
+			<div class="container">
+				<div class="navbar-header logo">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-right">
+						<li><a href="/Home/Index" class="link link1 active" data-letters="Home">Home</a></li>
+						<li><a href="#about" class="link link1 scroll" data-letters="About">About</a></li>
+						<li><a href="#services" class="link link1 scroll" data-letters="Services">Services</a></li>
+						<li><a href="/Home/Portfolio" class="link link1" data-letters="Portfolio">Portfolio</a></li>
+						<li><a href="#contact" class="link link1 scroll" data-letters="Contact Us">Contact Us</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>	
+		<!--//navigation-->
+	@*	<div class="banner-text">
+            
+
+			<h2 class="bnr-title wow flipInX animated" data-wow-delay=".5s">  </h2>	
+			<p class="wow bounceInLeft animated" data-wow-delay=".9s">Get Engraved With a Masterpiece</p>
+		</div>	*@
+	</div>
+	<!--//banner-->
+<div class="body">
+<!--about--> 
+	<div id="about" class="about">
+		<!-- container -->
+		<div class="container">
+			<h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">About ' The Artist '</h3>
+			<div class="about-row" >
+                	@*<div class="col-md-8 about-left wow slideInLeft animated" data-wow-delay=".5s">*@
+					<div class="col-md-6 about-img wow zoomInLeft animated" data-wow-delay=".9s" style="box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;">
+						<img src="~/images/img1.jpg" alt="">
+					</div>
+                        
+					<div class="col-md-6  about-text wow zoomInRight animated" data-wow-delay=".9s" >
+						<p>The name of the artist is Sagar Debnath. From 2010 Sagar took up tattoing as his Career. Since chilhood to this age not much has changed. Earlier he used to create masterpieces on a white paper , apparently his canvas and now few changes have occured like the pencils and brushes have been replaced by a tattoo machine and his canvas is now the human body. 
+			</p>
+						<p>Check the Portfolio page to discover a number of soulfull tattoos and also some mind blowing tattoo makeovers.  </p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+							</div>
+		</div>
+		<!--//container-->
+		<!--//about-->
+
+<!--services-->
+	<div id="services" class="services">
+		<!-- container -->
+		<div class="container">
+			<h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">Services</h3>
+			<div class="services-row">
+				<div class="col-md-3 services-grid">
+					<span class="glyphicon glyphicon-check effect-1" aria-hidden="true"></span>
+					<div class="services-text">
+						<h5 class="counter">Tattoo Creation</h5>
+						<p>From designing a tattoo to carving it on skin</p>
+					</div>
+				</div>
+				<div class="col-md-3 services-grid">
+					<span class="glyphicon glyphicon-check effect-1" aria-hidden="true"></span>
+					<div class="services-text">
+						<h5 class="counter">Tattoo Makeover</h5>
+						<p>Converting boring & old tattoos into new & interesting ones </p>
+					</div>
+				</div>
+				<div class="col-md-3 services-grid">
+					<span class="glyphicon glyphicon-check effect-1" aria-hidden="true"></span>
+					<div class="services-text">
+						<h5 class="counter">Home Service</h5> 
+						<p>You can get a tattoo done at your home </p>
+					</div>
+				</div>
+
+                	<div class="col-md-3 services-grid">
+					<span class="glyphicon glyphicon-check effect-1" aria-hidden="true"></span>
+					<div class="services-text">
+						<h5 class="counter">Safe & Hygienic</h5> 
+						<p>New needles and branded inks are used for tattoo carving</p>
+					</div>
+				</div>
+
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!--//container-->
+	</div>
+	<!--//services-->
+
+
+
+
+<!--contact -->
+	<div id="contact" class="contact">
+		<div class="container">
+			<h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">Contact Us</h3>
+			<div class="contact-form">
+				<p class="wow fadeInUp animated" data-wow-delay=".5s"  >Get in touch with Sagar for any information about Tattoos (Design , Cost etc) by contacting him on 8976119756. You can also drop a message below and Sagar would contact you as soon as possible </p>				<form method="post">
+					<input class="wow fadeInDown animated" data-wow-delay=".5s" type="text" placeholder="Name" name="Name" required="">
+					<input class="email wow fadeInDown animated" type="text" placeholder="Email" name="Email" required="">
+					<input class="wow fadeInDown animated" data-wow-delay=".7s" type="text" placeholder="Phone" name="Phone" required="">
+					<textarea class="wow fadeInDown animated" data-wow-delay=".9s" placeholder="Message" name="Message" required=""></textarea>
+					<input type="submit" value="SUBMIT" >
+				</form>
+
+               @ViewBag.Text;
+                @ViewBag.ForeColor
+			
+            </div>
+		</div>
+	</div>		
+	<!--//contact -->
+
+    </div>
+
